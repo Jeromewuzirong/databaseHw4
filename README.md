@@ -1,23 +1,6 @@
 # ORM Data Sync: MySQL (Sakila) → SQLite
 A data sync pipeline that replicates Sakila MySQL data into a SQLite analytics database using SQLAlchemy ORM.
 
-## structure
-databaseHw4/
-├── src/
-│   ├── models/
-│   │   ├── sakila.py        
-│   │   └── analytics.py  
-│   ├── sync/
-│   │   ├── init_db.py     
-│   │   ├── full_load.py     
-│   │   ├── incremental.py 
-│   │   └── validate.py  
-│   └── config.py        
-├── tests/
-│   └── test_commands.py  
-├── cli.py             
-└── README.md
-
 ## Prerequirements
 
 - Python 3.8+
@@ -67,5 +50,4 @@ python cli.py validate
 python -m pytest tests/test_commands.py -v
 ```
 
-Word document Link: (https://docs.google.com/document/d/1mI4F8yrgLQQU3UMLajpymcoDOdnlyp6K7dFlTtcz21Y/edit?usp=sharing)
 Citation: (https://claude.ai/share/13a6331b-1095-4cca-9093-b1912eb69604)
